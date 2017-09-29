@@ -1,6 +1,19 @@
+/* Custom Google Fonts {
+    font-family: 'Montserrat', sans-serif;
+} */
+
 body {
-    background-image: url("file:///C:/Users/FrankEiDaTANKy/Documents/Beach_Coders/GitHub/Projects/Frank/Images/stormyseas.jpg");
+    background-image: url("assets/images/stock1.jpg");
     background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100%;
+}
+
+.contanier-fluid {
+    overflow-y: scroll;
+    height: 1000px;
 }
 
 .parallaxes {
@@ -12,9 +25,48 @@ body {
     background-size: cover;
 }
 
+.main{
+    background-image: url("assets/images/stock2.jpg");
+    min-height: 100%;
+    height: 600px;
+}
+
+.second {
+    background-image: url("assets/images/stock3.jpg");
+    min-height: 100%;
+    height: 600px;
+}
+
+.third {
+    background-image: url("assets/images/stock4.jpg");
+    min-height: 100%;
+    height: 600px;
+}
+
+/* .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  } */
+
 .navbar {
     border: 5px solid rgba(255, 255, 255, 0.7);
     color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
 }
 
 
