@@ -27,7 +27,7 @@ body {
 }
 
 .main{
-    background-image: url("assets/Images/buildingView.jpeg");
+    background-image: url("assets/Images/buildingView.jpg");
     min-height: 100%;
     height: 500px;
 }
